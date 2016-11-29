@@ -15,7 +15,7 @@ var Menu = React.createClass({
     console.log(this.props.choices);
     return (
       <div>
-        Generic Bill's options for {this.props.title}
+        Generic Bills options for {this.props.title}
         <MenuItems items={this.props.choices} />
       </div>
     )
